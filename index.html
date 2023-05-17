@@ -14,16 +14,17 @@
 </head>
 
 <body class="px-2 py-4 min-h-screen grid place-content-center font-montserrat text-sm bg-bg-color">
-    <div class="rounded-xl overflow-auto max-w-md bg-white shadow-xl sm:max-w-xl sm:grid grid-cols-2">
+    <main class="rounded-xl overflow-auto max-w-md bg-white shadow-xl sm:max-w-xl sm:grid grid-cols-2">
+        <h1 class="sr-only">Product preview card component</h1>
         <picture class="brightness-95">
             <source media="(min-width: 640px)" srcset="assets/images/image-product-desktop.jpg" type="image/jpg">
-            <img src="assets/images/image-product-mobile.jpg" alt="Product Mobile">
+            <img src="assets/images/image-product-mobile.jpg" alt="Product Mobile" width="686" height="480">
         </picture>
         <div class="px-5 py-6 space-y-5 sm:flex flex-col justify-evenly sm:space-y-0 sm:px-6 sm:py-0">
             <div class="space-y-2.5 sm:space-y-0 sm:flex flex-col gap-2.5">
                 <p class="text-xs uppercase tracking-widest text-p-color">Perfume</p>
-                <h1 class="text-3xl text-h1-color font-bold font-fraunces sm:text-4xl">Gabrielle Essence Eau De Parfum
-                </h1>
+                <h2 class="text-3xl text-h1-color font-bold font-fraunces sm:text-4xl">Gabrielle Essence Eau De Parfum
+                </h2>
                 <p class="text-p-color">
                     A floral, solar and voluptuous interpretation composed by Olivier Polge,
                     Perfumer-Creator for the House of CHANEL.
@@ -34,12 +35,12 @@
                 <span class="text-sm text-p-color line-through font-medium">$169.99</span>
             </div>
             <button
-                class="w-full bg-price-color text-white font-bold flex items-center justify-center gap-2.5 py-3.5 rounded-xl hover:bg-btn-hover shadow">
-                <img src="assets/images/icon-cart.svg" alt="Icon Cart">
+                class="w-full bg-price-color text-white font-bold flex items-center justify-center gap-2.5 py-3.5 rounded-xl hover:bg-btn-hover shadow transition-all duration-200 ease-in-out">
+                <img src="assets/images/icon-cart.svg" alt="Icon Cart" width="15" height="16">
                 Add to Cart
             </button>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>

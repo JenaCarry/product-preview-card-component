@@ -8,7 +8,7 @@ module.exports = {
         "price-color": "#3c8067",
         "h1-color": "#1c232b",
         "p-color": "#6c7289",
-        "btn-hover": "#346f59",
+        "btn-hover": "#2d5f4d",
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
